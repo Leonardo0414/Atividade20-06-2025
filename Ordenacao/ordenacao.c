@@ -90,31 +90,31 @@ void demonstrarAlgoritmosOrdenacao() {
     // Gera vetor original com numeros aleatorios
     gerarVetor(vetorOriginal, TAMANHO);
     
-    printf("\nVETOR ORIGINAL (primeiros %d e últimos %d): ", N_EXIBIR, N_EXIBIR);
+    printf("\nVETOR ORIGINAL (primeiros %d e ultimos %d): ", N_EXIBIR, N_EXIBIR);
     imprimirVetor(vetorOriginal, TAMANHO, N_EXIBIR);
 
     //Insertion Sort Crescente
     copiarVetor(vetorOriginal, vetorCopia, TAMANHO);
     insertionSort(vetorCopia, TAMANHO, 1);
-    printf("\nINSERTION SORT CRESCENTE (primeiros %d e últimos %d): ", N_EXIBIR, N_EXIBIR);
+    printf("\nINSERTION SORT CRESCENTE (primeiros %d e ultimos %d): ", N_EXIBIR, N_EXIBIR);
     imprimirVetor(vetorCopia, TAMANHO, N_EXIBIR);
 
     // TeInsertion Sort Decrescente
     copiarVetor(vetorOriginal, vetorCopia, TAMANHO);
     insertionSort(vetorCopia, TAMANHO, 0);
-    printf("\nINSERTION SORT DECRESCENTE (primeiros %d e últimos %d): ", N_EXIBIR, N_EXIBIR);
+    printf("\nINSERTION SORT DECRESCENTE (primeiros %d e ultimos %d): ", N_EXIBIR, N_EXIBIR);
     imprimirVetor(vetorCopia, TAMANHO, N_EXIBIR);
 
     //  Quick Sort Crescente
     copiarVetor(vetorOriginal, vetorCopia, TAMANHO);
     quickSort(vetorCopia, 0, TAMANHO - 1, 1);
-    printf("\nQUICK SORT CRESCENTE (primeiros %d e últimos %d): ", N_EXIBIR, N_EXIBIR);
+    printf("\nQUICK SORT CRESCENTE (primeiros %d e ultimos %d): ", N_EXIBIR, N_EXIBIR);
     imprimirVetor(vetorCopia, TAMANHO, N_EXIBIR);
 
     // Quick Sort Decrescente
     copiarVetor(vetorOriginal, vetorCopia, TAMANHO);
     quickSort(vetorCopia, 0, TAMANHO - 1, 0);
-    printf("\nQUICK SORT DECRESCENTE (primeiros %d e últimos %d): ", N_EXIBIR, N_EXIBIR);
+    printf("\nQUICK SORT DECRESCENTE (primeiros %d e ultimos %d): ", N_EXIBIR, N_EXIBIR);
     imprimirVetor(vetorCopia, TAMANHO, N_EXIBIR);
 
     // Libera a memoria alocada

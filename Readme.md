@@ -32,7 +32,7 @@ O executável já compilado está disponível na raiz do projeto:
 
 Basta clicar duas vezes sobre o arquivo executável ou executá-lo via linha de comando:
 ```
-./nain.exe
+./main.exe
 ```
 
 ## Compilando o Código
